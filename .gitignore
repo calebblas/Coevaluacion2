@@ -1,0 +1,9 @@
+# Ignorar credenciales de Google
+credenciales.json
+
+# Ignorar el entorno virtual (si lo estás usando)
+venv/
+
+# Ignorar archivos de caché de Python
+__pycache__/
+*.pyc
