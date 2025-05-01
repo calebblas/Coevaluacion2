@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Encuesta de Rendimiento</title>
+  <link rel="stylesheet" href="style.css"> <!-- Opcional -->
+</head>
+<body>
+  <h1>Encuesta de Rendimiento</h1>
+
+  <div id="seleccion-nombre">
+    <label for="nombre">Nombre:</label>
+    <select id="nombre">
+      <option value="">-- Selecciona tu nombre --</option>
+    </select>
+    <br><br>
+    <button onclick="mostrarEncuesta()">Siguiente</button>
+  </div>
+
+  <div id="formulario-encuesta" style="display: none;">
+    <form id="encuesta">
+      <div id="preguntas"></div>
+      <br>
+      <button type="submit">Finalizar</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
